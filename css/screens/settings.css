@@ -1,0 +1,26 @@
+.settings__setting {
+  margin: 20px 0px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
+.settings__setting:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 5px 10px #9ea7aa;
+}
+.settings__setting:active {
+  background-color: #f5f5f5;
+  box-shadow: none;
+}
