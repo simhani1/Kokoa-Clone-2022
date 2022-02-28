@@ -1,0 +1,54 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-row__icon i {
+  font-size: 35px;
+}
+.icon-row__icon span {
+  margin-top: 15px;
+}
+@keyframes iconHover {
+  0% {
+    transform: none;
+  }
+  15% {
+    color: #ff3d00;
+  }
+  30% {
+    color: #ff8c00;
+  }
+  45% {
+    color: #faff00;
+  }
+  60% {
+    color: #00ff00;
+  }
+  75% {
+    color: #0003ff;
+  }
+  90% {
+    color: #be00ff;
+  }
+  100% {
+    transform: none;
+  }
+}
+.icon-row__icon {
+  animation: iconHover 3.5s linear infinite;
+}
+.icon-row__icon:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.icon-row__icon:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.icon-row__icon:nth-child(4) {
+  animation-delay: 0.9s;
+}
